@@ -1,6 +1,6 @@
 a, b = map(int, input().split())
 
-def isPrime(a, b):
+def isPrime(n):
     if n == 1:
         return False
 
@@ -12,7 +12,7 @@ def isPrime(a, b):
 
 sum_val = 0
 for i in range(a, b + 1):
-    if isPrime(a, b):
+    if isPrime(i):
         sum_val += i
 
 print(sum_val)
